@@ -32,5 +32,8 @@ public class AnonymousInnerClass {
             }
         };
         System.out.println(math.add(1,6));
+        System.out.println(math.sub(1,6));
+        System.out.println(math.mul(1,6));
+        System.out.println(math.div(1,6));
     }
 }
