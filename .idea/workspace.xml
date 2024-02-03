@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="init commit">
+    <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="Anonymous inner class and multi threading added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLamdaExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/MultiThreading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Comparators.executor": "Run",
     "Application.FunctionalInterfaceLambdaExc.executor": "Run",
     "Application.MultiThreading.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -44,7 +46,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MultiThreading">
+  <component name="RunManager">
     <configuration name="FunctionalInterfaceLambdaExc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8features.FunctionalInterfaceLambdaExc" />
       <module name="java8features" />
@@ -102,11 +104,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706770738418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Anonymous inner class and multi threading added">
+      <option name="closed" value="true" />
+      <created>1706864762299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706864762300</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Anonymous inner class and multi threading added">
+      <option name="closed" value="true" />
+      <created>1706864801781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706864801781</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Anonymous inner class and multi threading added">
+      <option name="closed" value="true" />
+      <created>1706864908067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706864908067</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="Anonymous inner class and multi threading added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous inner class and multi threading added" />
   </component>
 </project>

@@ -9,11 +9,11 @@ interface DisplayMsg {
     void displayMsg();
 }
 
-public class FunctionalInterfaceLambdaExc {
     @FunctionalInterface
     interface Operations {
         int operation(int a, int b);
     }
+public class FunctionalInterfaceLambdaExc {
 
     public int operate(int a, int b, Operations operations) {
         return operations.operation(a, b);
