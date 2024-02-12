@@ -10,6 +10,8 @@ interface Math{
 public class AnonymousInnerClass {
 
     public static void main(String[] args) {
+
+        //here we are creating child class which extends Math class and this class has no name.
         Math math = new Math() {
             @Override
             public int add(int a, int b) {
@@ -31,6 +33,7 @@ public class AnonymousInnerClass {
                 return a/b;
             }
         };
+
         System.out.println(math.add(1,6));
         System.out.println(math.sub(1,6));
         System.out.println(math.mul(1,6));

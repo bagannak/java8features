@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="Comparators added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/AnonymousInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bksihdOxKIXizIeDCmmE1r1lJr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -35,16 +39,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A.executor": "Run",
+    "Application.AnonymousInnerClass.executor": "Run",
+    "Application.AnonymousInnerClassDemo2.executor": "Run",
     "Application.Comparators.executor": "Run",
     "Application.FunctionalInterfaceLambdaExc.executor": "Run",
     "Application.MultiThreading.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.learn.java8features" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClass" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousInnerClassDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClassDemo2" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionalInterfaceLambdaExc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8features.FunctionalInterfaceLambdaExc" />
       <module name="java8features" />
@@ -73,6 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousInnerClassDemo2" />
+        <item itemvalue="Application.AnonymousInnerClass" />
         <item itemvalue="Application.MultiThreading" />
         <item itemvalue="Application.FunctionalInterfaceLambdaExc" />
       </list>
@@ -134,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706941233823</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Comparators added">
+      <option name="closed" value="true" />
+      <created>1706978742880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706978742881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
