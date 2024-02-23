@@ -1,12 +1,9 @@
 package com.learn.java8features;
 
 
-import java.util.function.Function;
-
-
 @FunctionalInterface
-interface DisplayMsg {
-    void displayMsg();
+interface DisplayMsg<T> {
+    T displayMsg();
 }
 
 @FunctionalInterface
@@ -28,7 +25,7 @@ public class FunctionalInterfaceLambdaExc {
         Operations mul = (a, b) -> a * b;
         Operations div = (a, b) -> a / b;
 
-        DisplayMsg msg = () -> System.out.println("Hello Java lovers");
+        DisplayMsg<String> msg = () ->  "Hello Java lovers";
 
         FunctionalInterfaceLambdaExc exc = new FunctionalInterfaceLambdaExc();
 

@@ -1,28 +1,29 @@
 package com.learn.java8features;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class MyComparator implements Comparator<Integer>{
-    public int compare(Integer obj1, Integer obj2){
-        return (obj1<obj2)? -1:(obj1>obj2)? 1 : 0;
+class MyComparator implements Comparator<Integer> {
+    public int compare(Integer obj1, Integer obj2) {
+        return (obj1 < obj2) ? -1 : (obj1 > obj2) ? 1 : 0;
     }
 }
-class Employee{
-        int eNo;
-        String name;
-        Employee(int eNo, String name){
-            this.eNo = eNo;
-            this.name = name;
-        }
 
-        @Override
-        public String toString(){
-            return eNo +" : "+name;
-        }
+class Employee {
+    int eNo;
+    String name;
+
+    Employee(int eNo, String name) {
+        this.eNo = eNo;
+        this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return eNo + " : " + name;
+    }
+}
 
 public class Comparators {
 
@@ -40,20 +41,19 @@ public class Comparators {
 
 //        Collections.sort(list, new MyComparator()); or
         list.sort(new MyComparator());
-        System.out.println( "Ascending order: " + list);
+        System.out.println("Ascending order: " + list);
 
 //  using lambda expressions
-        Comparator<Integer> comparator = (obj1, obj2)->{
-            if(obj1 > obj2){
+        Comparator<Integer> comparator = (obj1, obj2) -> {
+            if (obj1 > obj2) {
                 return -1;
-            }
-            else if(obj1 < obj2){
+            } else if (obj1 < obj2) {
                 return 1;
             }
             return 0;
         };
         list.sort(comparator);
-        System.out.println("Descending order:"+list);
+        System.out.println("Descending order:" + list);
 
 // Another example
         List<Employee> employees = new ArrayList<>();
@@ -64,16 +64,14 @@ public class Comparators {
         employees.add(new Employee(345, "Ajay"));
 
         //sort By eNo
-        employees.sort((obj1, obj2)->{
-            return (obj1.eNo>obj2.eNo)? -1:(obj1.eNo<obj2.eNo)?1:0;
-        });
+        employees.sort((obj1, obj2) -> obj1.eNo > obj2.eNo ? -1 : obj1.eNo < obj2.eNo ? 1 : 0);
 
-        System.out.println("Sorted By eNo: " +employees);
+        System.out.println("Sorted By eNo: " + employees);
 
         //sort By name
 
-        Comparator<Employee> comparator1 = (e1,e2)->e1.name.compareTo(e2.name);
+        Comparator<Employee> comparator1 = (e1, e2) -> e1.name.compareTo(e2.name);
         employees.sort(comparator1);
-        System.out.println("Sorted By name: "+ employees);
+        System.out.println("Sorted By name: " + employees);
     }
 }
