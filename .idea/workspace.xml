@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="AnonymousInnerClass added">
+    <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="FunctionsClass added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Comparators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Comparators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/DefaultAndStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/DefaultAndStatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Functions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +44,7 @@
     "Application.AnonymousInnerClass.executor": "Run",
     "Application.AnonymousInnerClassDemo2.executor": "Run",
     "Application.Comparators.executor": "Run",
+    "Application.Consumers.executor": "Run",
     "Application.DefaultAndStatic.executor": "Run",
     "Application.FunctionalInterfaceLambdaExc.executor": "Run",
     "Application.Functions.executor": "Run",
@@ -51,6 +55,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -59,9 +66,9 @@
       <recent name="com.learn.java8features" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Functions">
-    <configuration name="AnonymousInnerClassDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClassDemo2" />
+  <component name="RunManager" selected="Application.Consumers">
+    <configuration name="Consumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.Consumers" />
       <module name="java8features" />
       <extension name="coverage">
         <pattern>
@@ -75,6 +82,19 @@
     </configuration>
     <configuration name="DefaultAndStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8features.DefaultAndStatic" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalInterfaceLambdaExc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.FunctionalInterfaceLambdaExc" />
       <module name="java8features" />
       <extension name="coverage">
         <pattern>
@@ -112,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredefinedFuncInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.PredefinedFuncInterfaces" />
-      <module name="java8features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.java8features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumers" />
         <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.PredefinedFuncInterfaces" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DefaultAndStatic" />
-        <item itemvalue="Application.AnonymousInnerClassDemo2" />
+        <item itemvalue="Application.FunctionalInterfaceLambdaExc" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707738086716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FunctionsClass added">
+      <option name="closed" value="true" />
+      <created>1708664896000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708664896000</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FunctionsClass added">
+      <option name="closed" value="true" />
+      <created>1708664981173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708664981173</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +257,7 @@
     <MESSAGE value="Anonymous inner class and multi threading added" />
     <MESSAGE value="Comparators added" />
     <MESSAGE value="AnonymousInnerClass added" />
-    <option name="LAST_COMMIT_MESSAGE" value="AnonymousInnerClass added" />
+    <MESSAGE value="FunctionsClass added" />
+    <option name="LAST_COMMIT_MESSAGE" value="FunctionsClass added" />
   </component>
 </project>

@@ -1,6 +1,9 @@
 package com.learn.java8features;
 
 
+import java.util.Stack;
+import java.util.concurrent.Future;
+
 @FunctionalInterface
 interface DisplayMsg<T> {
     T displayMsg();
@@ -26,14 +29,12 @@ public class FunctionalInterfaceLambdaExc {
         Operations div = (a, b) -> a / b;
 
         DisplayMsg<String> msg = () ->  "Hello Java lovers";
-
         FunctionalInterfaceLambdaExc exc = new FunctionalInterfaceLambdaExc();
-
-
         System.out.println("Addition: " + exc.operate(2, 5, add));
         System.out.println("Subtraction: " + exc.operate(2, 5, sub));
         System.out.println("Multiplication: " + exc.operate(2, 5, mul));
         System.out.println("Division: " + exc.operate(10, 2, div));
         msg.displayMsg();
+
     }
 }

@@ -33,7 +33,6 @@ public class DefaultAndStatic implements Right,Left{
         DefaultAndStatic defaultAndStatic = new DefaultAndStatic();
 
         defaultAndStatic.m1();
-
         Left.m2();
     }
 }

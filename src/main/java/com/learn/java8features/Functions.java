@@ -20,12 +20,35 @@ class MyFunction implements Function<Integer, List<Integer>> {//Function<T,R> T-
 }
 public class Functions {
     public static void main(String[] args) {
-        MyFunction myFunction = new MyFunction();
-        List<Integer> digits = myFunction.apply(23435);
+        MyFunction function1 = new MyFunction();
+        List<Integer> digits = function1.apply(23435);
         System.out.println(digits);
-        Function<List<Integer>,Integer> function2 = (integers) ->integers.stream().reduce(0, Integer::sum);
-         Integer compose = function2.apply(digits);
-        System.out.println(compose);
+
+        //sum of digits
+        Function<List<Integer>,Integer> function2 = (integers) -> integers.stream()
+                .reduce(0, Integer::sum);
+         Integer sumOfDigits = function2.apply(digits);
+        System.out.println(sumOfDigits);
+
+
+        //Function chaining
+
+
+        // first function1 and then followed by function2 will apply
+        Integer sumOfD = function1.andThen(function2).apply(23435);
+        System.out.println("By function chaining -> " + sumOfD);
+
+
+        // here first function2 and then followed by function1 will apply
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(3);
+        list.add(5);
+        List<Integer> sumOfD2 = function1.compose(function2).apply(list);
+
+        System.out.println(sumOfD2);
     }
 
 }
