@@ -2,6 +2,7 @@ package com.learn.java8features;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.function.Function;
 
@@ -50,5 +51,4 @@ public class Functions {
 
         System.out.println(sumOfD2);
     }
-
 }

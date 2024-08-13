@@ -12,6 +12,9 @@ interface DisplayMsg<T> {
 @FunctionalInterface
 interface Operations {
     int operation(int a, int b);
+    default void printName(){
+        System.out.println();
+    }
 }
 
 public class FunctionalInterfaceLambdaExc {

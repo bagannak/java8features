@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="FunctionsClass added">
+    <list default="true" id="99c4a4db-2ead-4fd7-8ad6-c721201986b5" name="Changes" comment="Consumers added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Suppliers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/bifunctionalinterface/BiConsumers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/bifunctionalinterface/BiFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/bifunctionalinterface/BiPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/multi_threading/MultiThreading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/AnonymousInnerClassDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/AnonymousInnerClassDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Comparators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Comparators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Consumers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Consumers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/DefaultAndStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/DefaultAndStatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/FunctionalInterfaceLambdaExc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8features/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8features/MultiThreading.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bagannak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:bagannak/java8features.git&quot;,
+    &quot;accountId&quot;: &quot;d6d6dcc6-ff83-48ee-84cf-1af5c96a6a35&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -38,41 +59,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A.executor": "Run",
-    "Application.AnonymousInnerClass.executor": "Run",
-    "Application.AnonymousInnerClassDemo2.executor": "Run",
-    "Application.Comparators.executor": "Run",
-    "Application.Consumers.executor": "Run",
-    "Application.DefaultAndStatic.executor": "Run",
-    "Application.FunctionalInterfaceLambdaExc.executor": "Run",
-    "Application.Functions.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MultiThreading.executor": "Run",
-    "Application.PredefinedFuncInterfaces.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousInnerClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousInnerClassDemo2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousInnerClassDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiConsumers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiPredicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Comparators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consumers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DefaultAndStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterfaceLambdaExc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredefinedFuncInterfaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Suppliers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.learn.java8features" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumers">
+  <component name="RunManager" selected="Application.MultiThreading">
+    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClass" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.multi_threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousInnerClassDemo2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClassDemo2" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousInnerClassDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClassDemo2" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.multi_threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousInnerClassDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.AnonymousInnerClassDemo2" />
+      <module name="java8features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8features.multi_threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Consumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8features.Consumers" />
       <module name="java8features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8features.*" />
+          <option name="PATTERN" value="com.learn.java8features.multi_threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,51 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultAndStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.DefaultAndStatic" />
+    <configuration name="MultiThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.multi_threading.MultiThreading" />
       <module name="java8features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionalInterfaceLambdaExc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.FunctionalInterfaceLambdaExc" />
-      <module name="java8features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.java8features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.Functions" />
-      <module name="java8features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.java8features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8features.Main" />
-      <module name="java8features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.java8features.*" />
+          <option name="PATTERN" value="com.learn.java8features.multi_threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,20 +173,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreading" />
+        <item itemvalue="Application.AnonymousInnerClass" />
         <item itemvalue="Application.Consumers" />
-        <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DefaultAndStatic" />
-        <item itemvalue="Application.FunctionalInterfaceLambdaExc" />
+        <item itemvalue="Application.AnonymousInnerClassDemo2 (1)" />
+        <item itemvalue="Application.AnonymousInnerClassDemo2" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-jbr-17.0.9-3183f394aec4-631a3c05" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -238,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708664981173</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Consumers added">
+      <option name="closed" value="true" />
+      <created>1709546113691</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709546113691</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Consumers added">
+      <option name="closed" value="true" />
+      <created>1709546149043</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709546149043</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +306,7 @@
     <MESSAGE value="Comparators added" />
     <MESSAGE value="AnonymousInnerClass added" />
     <MESSAGE value="FunctionsClass added" />
-    <option name="LAST_COMMIT_MESSAGE" value="FunctionsClass added" />
+    <MESSAGE value="Consumers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consumers added" />
   </component>
 </project>

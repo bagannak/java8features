@@ -4,8 +4,7 @@ interface Left{
     default void m1(){
         System.out.println("Left");
     }
-
-    public static void m2(){
+    static void m2(){
         System.out.println("Interface static method");
     }
 }

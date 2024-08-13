@@ -1,6 +1,7 @@
 package com.learn.java8features;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -10,7 +11,7 @@ class MyComparator implements Comparator<Integer> {
     }
 }
 
-class Employee {
+class Employee{
     int eNo;
     String name;
 
@@ -23,10 +24,11 @@ class Employee {
     public String toString() {
         return eNo + " : " + name;
     }
+
+
 }
 
 public class Comparators {
-
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(38);
@@ -64,7 +66,7 @@ public class Comparators {
         employees.add(new Employee(345, "Ajay"));
 
         //sort By eNo
-        employees.sort((obj1, obj2) -> obj1.eNo > obj2.eNo ? -1 : obj1.eNo < obj2.eNo ? 1 : 0);
+        employees.sort((obj1, obj2) -> Integer.compare(obj2.eNo, obj1.eNo));
 
         System.out.println("Sorted By eNo: " + employees);
 
